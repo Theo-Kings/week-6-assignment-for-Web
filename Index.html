@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Interactive Web Page with Custom Validation</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h1>Interactive Page Demo</h1>
+    <button id="toggle-section-btn">Toggle Info Section</button>
+  </header>
+
+  <!-- Interactive Section to Show/Hide -->
+  <section id="info-section">
+    <p>This section can be toggled visible or hidden.</p>
+  </section>
+
+  <!-- Interactive Counter Feature -->
+  <section id="counter-section">
+    <h2>Counter</h2>
+    <p>Current count: <span id="counter">0</span></p>
+    <button id="increment-btn">Increment</button>
+  </section>
+
+  <!-- Custom Validation Form -->
+  <section id="form-section">
+    <h2>Sign Up Form</h2>
+    <form id="signup-form" novalidate>
+      <div class="form-control">
+        <label for="username">Username:</label>
+        <input type="text" id="username" name="username">
+        <small class="error-message"></small>
+      </div>
+      <div class="form-control">
+        <label for="email">Email:</label>
+        <input type="text" id="email" name="email">
+        <small class="error-message"></small>
+      </div>
+      <div class="form-control">
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password">
+        <small class="error-message"></small>
+      </div>
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>

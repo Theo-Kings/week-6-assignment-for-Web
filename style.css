@@ -1,0 +1,43 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+section {
+  margin: 20px 0;
+}
+
+button {
+  cursor: pointer;
+  padding: 8px 12px;
+  margin-top: 8px;
+}
+
+.form-control {
+  margin-bottom: 12px;
+}
+
+.form-control input {
+  width: 100%;
+  padding: 6px;
+  margin-top: 4px;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+.form-control.success input {
+  border-color: #2ecc71;
+}
+
+.form-control.error input {
+  border-color: #e74c3c;
+}
+
+.form-control .error-message {
+  color: #e74c3c;
+  font-size: 0.9em;
+}
